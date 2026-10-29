@@ -2,7 +2,15 @@
     width: 300px;
     background: #f9fafb;
     border: 2px solid #e5e7eb;
+     margin-bottom: 24px;
 }
 .carte-contenu {
-    padding: 30px;
+   padding: 20px;
+}
+.carte-contenu h3 {
+    margin: 0; /* Enlève la marge par défaut du titre */
+}
+
+.carte-contenu p {
+    margin: 12px 0; /* 12px en haut et en bas, 0 à gauche et à droite */
 }
