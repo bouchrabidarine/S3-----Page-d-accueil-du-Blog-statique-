@@ -4,3 +4,6 @@
     /* La marge "auto" à gauche et à droite centre l'élément */
     margin: 0 auto; 
 }
+.section-articles {
+    padding: 80px 24px;
+}
