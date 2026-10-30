@@ -13,7 +13,10 @@
     background: #ffffff;
     /* Petit effet de fond (grille) pour le style */
     background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
-    background-size: 24px 24px;
+    background-size: 50px 24px;
+}
+.banniere-accueil span{
+    color: rgb(72, 125, 239);
 }
 .banniere-accueil h1 {
     max-width: 850px;
@@ -24,7 +27,7 @@
 
 .banniere-accueil p {
     max-width: 680px;
-    margin: 24px auto 0; /* 24px en haut, Auto à gauche/droite, 0 en bas */
+    margin: 24px auto 50px; /* 24px en haut, Auto à gauche/droite, 0 en bas */
     font-size: 17px;
     color: #6b7280;
 }
