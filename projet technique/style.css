@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+
 /* General */
 * {
     box-sizing: border-box;
@@ -12,26 +12,13 @@ body {
 
 /* Header */
 header {
-    background-color: aliceblue;
     margin: 0;
     padding: 10px 30px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
-nav a {
-    text-decoration: none;
-    color: black;
-    margin-left: 50px;
-}
-a:hover{
-    color:rgb(11, 84, 11) ;
-}
-
 h1 {
-    color: rgb(11, 84, 11);
+     color: #04658F;
 }
 
 /* Accueil */
@@ -39,6 +26,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     padding: 50px 20px;
+    background-color: aliceblue;
 }
 
 h2 {
@@ -46,7 +34,7 @@ h2 {
 }
 
 h2 span {
-    color: rgb(11, 84, 11);
+     color: #022C53;;
 }
 
 .metier {
@@ -64,7 +52,7 @@ h2 span {
 
 /* Contact buttons */
 .button a {
-    background-color: rgb(11, 84, 11);
+    background-color:  #00112F;;
     padding: 15px 20px;
     border-radius: 20px;
     display: inline-block;
@@ -91,12 +79,11 @@ h3 {
     display: flex;
     width: 100%;
     gap: 20px;
-    background-color: aliceblue;
     padding: 30px;
 }
 
 .html, .css, .java {
-    background-color: rgb(179, 229, 157);
+    background-color:#b8ccd4;
     border-radius: 30px;
     text-align: center;
     flex: 1;
@@ -104,7 +91,7 @@ h3 {
 }
 
 h4 {
-    color: rgb(11, 84, 11);
+    color: black;
     font-family: Verdana, sans-serif;
 }
 
@@ -113,10 +100,51 @@ h4 {
     font-size: 14px;
 }
 
+/* Mes Projets */
+
+.projets {
+    display: flex;
+    gap: 30px;
+    margin: 40px 20px;
+}
+
+.contenu {
+    background-color: #041f29;
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1;
+    text-align: center;
+    line-height: 1;
+}
+.contenu a{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(201, 183, 183);
+}
+
+.contenu img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.contenu h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+.contenu p {
+    font-size: 14px;
+    padding: 10px;
+    color: rgb(232, 222, 222);
+}
+
 /* Contact section */
 .contact {
     text-align: center;
     padding: 30px;
+    background-color: aliceblue;
 }
 
 .contact h5 {
@@ -127,27 +155,10 @@ h4 {
 .contact p {
     font-size: 14px;
 }
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav a {
-        margin-left: 8px;
-    }
-
-    .myskills {
-        flex-direction: column;
-    }
-
-    .accueil {
-        font-size: 22px;
-    }
-
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
 }
-=======
->>>>>>> 0c42843ac8d7e6a89366e9ff38331f339de7761c
